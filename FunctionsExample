@@ -1,0 +1,91 @@
+-------------BurgerMealProgram---------------
+
+topping1    string
+topping2    string
+cheese      boolean
+side_order_item    string
+seasoning_salt     boolean
+drink_flavour      string
+drink_size         int
+
+
+makeBurger(topping1,topping2){
+      Add bread
+      Add topping1
+      Add topping2
+      if (cheese == true)
+          Add cheeseSlice
+      Add bread
+     }
+
+
+sideOrder(side_order_item,seasoning_salt){
+     Add side_order_item
+     if (seasoning_salt == true)
+         Add salt
+     }
+
+drinkOrder(drink_flovour,drink_size){
+     If (drink_flavour == 7up) AND (drink_size == 250)
+         Add 250ml 7up
+     If (drink_flavour == 7up) AND (drink_size == 400)
+         Add 400ml 7up
+     If (drink_flavour == coco_cola) AND (drink_size == 250)
+         Add 250ml coco-cola
+     If (drink_flavour == coco_cola) AND (drink_size == 400)
+         Add 400ml coco_cola
+
+    Add water
+
+     }
+    
+
+
+----------------FruitSaladProgram------------------------
+
+apple_bag  = 2 apples
+apples
+oranges
+banana
+kiwi 
+pumpkin_seeds
+dates
+cream_bottle   200ml
+cream_option  
+  
+
+dryfuit = pumpkin_seeds + dates
+cream = cream_bottle - 100
+apples = (applebag_bag * 2)-1
+
+
+#HBalanced with 3 fruits and without cream
+balancedFruitSalad(){
+     if (apples==3)AND (oranges==3)
+     if (banana==1) OR (kiwi==1)
+     if  NOT cream
+         Add apples 
+         Add oranges
+         Add banana OR kiwi
+         Add dryfruit
+}
+
+
+#Default salad with 2 of each fruit
+FruitSalad(){
+     if (banana > 2)
+        banana = 2
+     if oranges < 2
+        oranges = 2
+     if (apples != 2)
+        apples = 2
+    dryfruit = dryfruit / 2
+    Add banana
+    Add oranges
+    Add apples
+    Add cream
+    Add dryfruit
+}
+
+
+
